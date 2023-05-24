@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .textDesktop {
+    display: none;
+  }
+
+  .borderCard {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .textMobile {
+    display: none;
+  }
+  .borderCard {
+    padding: 2rem;
+  }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
